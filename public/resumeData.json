@@ -4,11 +4,11 @@
     "description":"I am a FrontEnd engineer and I use react and react native to develop pages. This Website is a showcase of my work.",
     "image":"profilepic.jpg",
     "bio":"Writing soon",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Hey, I hope you liked my portfolio website. This was completely build using React and if you liked my work then you can react out to me using methods given below",
     "email": "animeshanurag12@gmail.com",
     "phone": "7301197677",
-    "github":"..",
-    "project":"..",
+    "github":"https://github.com/Animeshanurag/Portfolio",
+    "project":"https://github.com/Animeshanurag/Portfolio",
     "address":{
       "street":"Salarpuria Greenage",
       "city":"Bangalore",
@@ -117,34 +117,34 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Snap Search",
+        "category":"Image Search Engine",
         "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"#"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Hospital Management System",
+        "category":"DBMS and PHP",
         "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"#"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Library Management System",
+        "category":"DBMS and PHP",
         "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"#"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"Screen Mirroring",
+        "category":"Platform where user can Share the Screen,tab or application",
         "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"#"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"Mobile App with Cards in React Native",
+        "category":"Simple app which shows some content in card.",
         "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"#"
       }
     ]
   }

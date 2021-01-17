@@ -1,32 +1,4 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
-
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
-
 body { background: #0f0f0f; }
-
-/* ------------------------------------------------------------------ */
-/* b. Header Styles
-/* ------------------------------------------------------------------ */
 
 header {
    position: relative;
@@ -38,7 +10,6 @@ header {
    overflow: hidden;
 }
 
-/* vertically center banner section */
 header:before {
    content: '';
    display: inline-block;
@@ -78,7 +49,6 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-/* header social links */
 header .social {
    margin: 24px 0;
    padding: 0;
@@ -92,7 +62,6 @@ header .social li {
 header .social li a { color: #fff; }
 header .social li a:hover { color: #0762f9; }
 
-/* scrolldown link */
 header .scrolldown a {
    position: absolute;
    bottom: 30px;
@@ -114,8 +83,6 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #0762f9; }
 
-/* primary navigation
---------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
 	 padding: 0;
@@ -123,7 +90,6 @@ header .scrolldown a:hover { color: #0762f9; }
 	 outline: none;
 }
 
-/* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
@@ -137,14 +103,12 @@ header .scrolldown a:hover { color: #0762f9; }
 }
 .opaque { background-color: #333; }
 
-/* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
    min-height: 48px;
    width: auto;
 
-   /* center align the menu */
    text-align: center;
 }
 ul#nav li {
@@ -154,10 +118,8 @@ ul#nav li {
    display: inline-block;
 }
 
-/* Links */
 ul#nav li a {
 
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
    padding: 8px 13px;
@@ -177,9 +139,6 @@ ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #fe6928; }
 
 
-/* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
 
 #about {
    background: #000524;
@@ -202,9 +161,8 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 300px;
+   height: 350px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -226,9 +184,6 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 
-/* ------------------------------------------------------------------ */
-/* d. Resume Section
-/* ------------------------------------------------------------------ */
 
 #resume {
    background: #fff;
@@ -276,9 +231,6 @@ ul#nav li.current a { color: #fe6928; }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
 
 .bars {
 	width: 95%;
