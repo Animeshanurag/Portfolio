@@ -49,16 +49,17 @@
     "skillmessage":"..",
     "education":[
       {
-        "school":"Loyola High School",
-        "degree":"Intermediate",
-        "graduated":"June 2017",
-        "description":"I did my Intermediate from Physics, Chemistry and Mathematics and secured 76% from CBSE Board."
-      },
-      {
         "school":"SRM Institue Of Science and Technology, Kattankulathur",
         "degree":"B.Tech in Software Engineering",
         "graduated":"May 2021",
         "description":"secured a CGPA of 7 out of 10"
+        
+      },
+      {
+        "school":"Loyola High School",
+        "degree":"Intermediate",
+        "graduated":"June 2017",
+        "description":"I did my Intermediate from Physics, Chemistry and Mathematics and secured 76% from CBSE Board."
       }
     ],
     "work":[
@@ -119,19 +120,19 @@
       {
         "title":"Snap Search",
         "category":"Image Search Engine",
-        "image":"canadian-wanderlust.jpg",
+        "image":"imagesearch.jpg",
         "url":"#"
       },
       {
         "title":"Hospital Management System",
         "category":"DBMS and PHP",
-        "image":"fury-fighting-gear.jpg",
+        "image":"hospital.jpg",
         "url":"#"
       },
       {
         "title":"Library Management System",
         "category":"DBMS and PHP",
-        "image":"original-thai-food.jpg",
+        "image":"library.jpg",
         "url":"#"
       },
       {
@@ -143,7 +144,13 @@
       {
         "title":"Mobile App with Cards in React Native",
         "category":"Simple app which shows some content in card.",
-        "image":"smirkspace.jpg",
+        "image":"react-card.jpg",
+        "url":"#"
+      },
+      {
+        "title":"Portfolio",
+        "category":"React App for my portfolio",
+        "image":"resume-website.jpg",
         "url":"#"
       }
     ]
