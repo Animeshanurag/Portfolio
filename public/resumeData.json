@@ -16,7 +16,7 @@
       "zip": "560068"
     },
     "website": "https://www.animesh-anurag-portfolio.herokuapp.com",
-    "resumedownload":"..",
+    "resumedownload":"https://github.com/Animeshanurag/resume",
     "social":[
       {
         "name":"facebook",
@@ -46,7 +46,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"..",
+    "skillmessage":"Thank you for taking the time to review my resume. I truly believe that my past experience and education would make me a valuable asset for your organization. I'm particularly excited about the opportunity to learn more about web developement, app developement, UI and UX and how I can contribute to that effort. I believe that learning has no end, one can work hard and gain knowledge for lifetime.",
     "education":[
       {
         "school":"SRM Institue Of Science and Technology, Kattankulathur",
