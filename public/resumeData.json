@@ -3,7 +3,7 @@
     "name":"Animesh Anurag",
     "description":"I am a FrontEnd engineer and I use react and react native to develop pages. This Website is a showcase of my work.",
     "image":"profilepic.jpg",
-    "bio":"Writing soon",
+    "bio":"I am a web developer and designer. My passion is to create beautiful experiences. I spend my time experimenting and researching the latest technology. I pledge to be a lifelong learner; it empowers me to create magnificent products. I started learning HTML as a hobbyist, after witnessing its tremendous capabilities, I was blown away by its potential! Soon, I started learning React and React Native, A language with no limitations. Now I hope to design masterpieces using the skills I've learned.",
     "contactmessage":"Hey, I hope you liked my portfolio website. This was completely build using React and if you liked my work then you can reach out to me using methods given below",
     "email": "animeshanurag12@gmail.com",
     "phone": "7301197677",
@@ -15,7 +15,7 @@
       "state":"Karnataka",
       "zip": "560068"
     },
-    "website": "..",
+    "website": "https://www.animesh-anurag-portfolio.herokuapp.com",
     "resumedownload":"..",
     "social":[
       {
@@ -137,7 +137,7 @@
       {
         "title":"Screen Mirroring",
         "category":"Platform where user can Share the Screen,tab or application",
-        "image":"resume-website.jpg",
+        "image":"ScreenShare.png",
         "url":"#"
       },
       {
