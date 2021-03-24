@@ -1,9 +1,10 @@
 {
   "main": {
-    "name":"Animesh Anurag",
-    "description":"I am a FrontEnd engineer and I use react and react native to develop pages. This Website is a showcase of my work.",
+    "firstname":"Animesh",
+    "lastname":"Anurag",
+    "description":"I am a passionate designer and a developer too. This piece is just a showcase of my work.",
     "image":"profilepic.jpg",
-    "bio":"I am a web developer and designer. My passion is to create beautiful experiences. I spend my time experimenting and researching the latest technology. I pledge to be a lifelong learner; it empowers me to create magnificent products. I started learning HTML as a hobbyist, after witnessing its tremendous capabilities, I was blown away by its potential! Soon, I started learning React and React Native, A language with no limitations. Now I hope to design masterpieces using the skills I've learned.",
+    "bio":"Hi, my name is Animesh Anurag.I am in my final year of Software Engineering in SRM University, Chennai. With the Passion for well-crafted (digital) experiences, I believe in beauty to empower ideas. My goal is to connect people with brands & businesses through design. A combination of strong concepts and refined execution to deliver premium results. Currently I’m working as a freelancer and also completing my graduation degree. I’m wanted to get an industry level experience and want to grow myself further.",
     "contactmessage":"Hey, I hope you liked my portfolio website. This was completely build using React and if you liked my work then you can reach out to me using methods given below",
     "email": "animeshanurag12@gmail.com",
     "phone": "7301197677",
@@ -78,12 +79,16 @@
     ],
     "skills":[
       {
+        "name":"UI Des",
+        "level":"90%"
+      },
+      {
         "name":"HTML",
         "level":"90%"
       },
       {
-        "name":"React-Native",
-        "level":"50%"
+        "name":"HTML",
+        "level":"90%"
       },
       {
         "name":"ReactJs",
@@ -118,40 +123,52 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Zomato Dark Mode",
+        "category":"UI Desing for zomato with black theme",
+        "image":"zomato.png",
+        "url":"https://xd.adobe.com/view/3e013fa9-45a3-464a-bd42-d270cd475961-6b52/screen/919d9ef8-ec73-4bf5-bc0c-b41783124ddb"
+      },
+      {
+        "title":"Budweiser Web Design",
+        "category":"Web Designing",
+        "image":"budweiser.png",
+        "url":"https://github.com/Animeshanurag/Budweiser"
+      },
+      {
+        "title":"Dialog",
+        "category":"Writeups startup",
+        "image":"dialog.png",
+        "url":"https://github.com/Animeshanurag/dialog/blob/main/Screenshot%202021-03-24%20at%207.18.29%20PM.png"
+      },
+      {
         "title":"Snap Search",
         "category":"Image Search Engine",
-        "image":"imagesearch.jpg",
+        "image":"search.png",
         "url":"#"
       },
       {
         "title":"Hospital Management System",
         "category":"DBMS and PHP",
-        "image":"hospital.jpg",
-        "url":"#"
+        "image":"hospital.png",
+        "url":"https://github.com/Animeshanurag/hospital-management"
       },
       {
         "title":"Library Management System",
         "category":"DBMS and PHP",
-        "image":"library.jpg",
+        "image":"library.png",
         "url":"#"
       },
       {
         "title":"Screen Mirroring",
         "category":"Platform where user can Share the Screen,tab or application",
-        "image":"ScreenShare.png",
-        "url":"#"
+        "image":"mirror.png",
+        "url":"https://github.com/Animeshanurag/screenshare"
       },
       {
         "title":"Mobile App with Cards in React Native",
         "category":"Simple app which shows some content in card.",
-        "image":"react-card.jpg",
-        "url":"#"
-      },
-      {
-        "title":"Portfolio",
-        "category":"React App for my portfolio",
-        "image":"resume-website.jpg",
-        "url":"#"
+        "image":"bitclass.png",
+        "url":"https://github.com/Animeshanurag/BitclassTest"
       }
     ]
   }

@@ -27,26 +27,30 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   font: 90px/1.1em 'opensans-bold', serif;
+   color: #FF0000;
+   letter-spacing: 15px;
+   margin: 0 auto 30px auto;
 }
-header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #ddd;
+header .banner-text h2 {
+   font: 90px/1.1em 'opensans-bold', serif;
+   color: #ffffff;
+   letter-spacing: 15px;
    margin: 0 auto;
    width: 70%;
 }
-header .banner-text h3 span,
-header .banner-text h3 a {
-   color: #fff;
+header .banner-text h3 {
+   font: 20px/1.1em 'librebaskerville-regular', serif;
+   color: #000000;
+   margin: 100 auto;
+   width: 70%;
 }
-header .banner-text hr {
+
+header .banner-text img {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
-   border-color: rgba(150, 150, 150, .1);
+   /* border-color: #2F2D2E; */
+   /* border-color: rgba(150, 150, 150, .1); */
 }
 
 header .social {
@@ -114,8 +118,9 @@ ul#nav {
 ul#nav li {
    position: relative;
    list-style: none;
-   height: 48px;
+   height: 60px;
    display: inline-block;
+   font-size: 20px;
 }
 
 ul#nav li a {
@@ -123,7 +128,7 @@ ul#nav li a {
 
    display: inline-block;
    padding: 8px 13px;
-   line-height: 32px;
+   line-height: 50px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
@@ -141,49 +146,49 @@ ul#nav li.current a { color: #fe6928; }
 
 
 #about {
-   background: #000524;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
+   border-radius: 50px;
+   /* background-image: linear-gradient(to right, #5a6edf , #3b1488 ); */
+   width: 1824px;
+   height: 695px;
+   margin: 127.5px 1.3px 153px 120px;
+   text-align: left;
+   padding: 118px 124px 104px 94px;
 }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #0762f9; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
-   margin-bottom: 12px;
+   font: 45px/25px 'opensans-bold', sans-serif;
+   color: #ff0000;
+   margin-bottom: 70px;
+  /* margin: 0 436px 48.8px 0; */
+  line-height: 3;
+  letter-spacing: 10px;
+  /* width: 760px;
+  height: 94px; */
+  /* margin: 0 400px 48.8px 0; */
 }
 #about p {
-   line-height: 30px;
-   color: #ccc;
+   font: 20px/30px 'opensans-bold', sans-serif;
+   color: #CCC;
+   width: 938px;
+  height: 37px;
+  
+  font-size: 22px;
+  
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
 }
 #about .profile-pic {
    position: relative;
    width: 300px;
-   height: 350px;
-}
-#about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
+   height: 400px;
+   margin-right: 10px;
 }
 #about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
-
-
 
 #resume {
    background: #fff;
@@ -364,23 +369,24 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #0f0f0f;
    padding-top: 90px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 35px/35px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
-   letter-spacing: 1px;
+   letter-spacing: 10px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   margin-top: 48px;
+   color: #ff0000;
 }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   background: #0f0f0f;
    overflow: hidden;
    position: relative;
 
@@ -412,7 +418,7 @@ ul#nav li.current a { color: #fe6928; }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   /* background: url(../images/overlay-bg.png) repeat; */
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -587,161 +593,12 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
-
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-}
-#testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
-}
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-
-/*	Blockquotes */
-#testimonials blockquote {
-   margin: 0 0px 30px 0px;
-   padding-left: 0;
-   position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
-   padding: 0;
-   font-size: 24px;
-   line-height: 48px;
-   color: #fff
-}
-#testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
-   color: #fff;
-}
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
-
-/* Flex Slider
-/* ------------------------------------------------------------------ */
-
-/* Reset */
-.flexslider a:active,
-.flexslider a:focus  { outline: none; }
-.slides,
-.flex-control-nav,
-.flex-direction-nav { margin: 0; padding: 0; list-style: none; }
-.slides li { margin: 0; padding: 0;}
-
-/* Necessary Styles */
-.flexslider {
-   position: relative;
-   zoom: 1;
-   margin: 0;
-   padding: 0;
-}
-.flexslider .slides { zoom: 1; }
-.flexslider .slides > li { position: relative; }
-
-/* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
-/* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container { zoom: 1; position: relative; }
-
-/* Clearfix for .slides */
-.slides:before,
-.slides:after {
-   content: " ";
-   display: table;
-}
-.slides:after {
-   clear: both;
-}
-
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-.no-js .slides > li:first-child { display: block; }
-
-/* Slider Styles */
-.slides { zoom: 1; }
-.slides > li {
-   /*margin-right: 5px; */
-   overflow: hidden;
-}
-
-/* Control Nav */
-.flex-control-nav {
-    width: 100%;
-    position: absolute;
-    bottom: -20px;
-    text-align: left;
-}
-.flex-control-nav li {
-    margin: 0 6px;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-}
-.flex-control-paging li a {
-    width: 12px;
-    height: 12px;
-    display: block;
-    background: #ddd;
-    background: rgba(255, 255, 255, .3);
-    cursor: pointer;
-    text-indent: -9999px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -o-border-radius: 20px;
-    border-radius: 20px;
-    box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
-}
-.flex-control-paging li a:hover {
-    background: #CCC;
-    background: rgba(255, 255, 255, .7);
-}
-.flex-control-paging li a.flex-active {
-    background: #fff;
-    background: rgba(255, 255, 255, .9);
-    cursor: default;
-}
-
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #0f0f0f;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -776,82 +633,14 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 25px/50px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
-#contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
-   color: #EBEEEE;
-	display: inline-block;
-	float: left;
-   width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-   padding: 10px 20px;
-	color: #eee;
-	background: #373233;
-	margin-bottom: 42px;
-	border: 0;
-	outline: none;
-   font-size: 15px;
-   line-height: 24px;
-   width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-	color: #fff;
-	background-color: #0762f9;
-}
-#contact button.submit {
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
-	border: none;
-   cursor: pointer;
-   height: auto;
-   display: inline-block;
-	border-radius: 0px;
-   margin-left: 26%;
-}
-#contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
-}
-#contact span.required {
-	color: #0762f9;
-	font-size: 13px;
-}
-#message-warning, #message-success {
-   display: none;
-	background: #0F0F0F;
-	padding: 24px 24px;
-	margin-bottom: 36px;
-   width: 65%;
-   margin-left: 26%;
-}
-#message-warning { color: #D72828; }
-#message-success { color: #0762f9; }
 
-#message-warning i,
-#message-success i {
-   margin-right: 10px;
-}
-#image-loader {
-   display: none;
-   position: relative;
-   left: 18px;
-   top: 17px;
-}
 
 
 /* Twitter Feed */
