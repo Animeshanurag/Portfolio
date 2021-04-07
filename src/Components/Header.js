@@ -35,6 +35,7 @@ class Header extends Component {
             {/* <div>            
                <img className="profile-pic"  src={profilepic} alt="Animesh Anurag Profile Pic" />
             </div> */}
+            
          </div>
          
       </div>
